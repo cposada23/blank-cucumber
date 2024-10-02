@@ -1,12 +1,24 @@
 package blank;
 
+import blank.appHipertextual.HiperTextualApp;
+import framework.web.WebApp;
+import io.cucumber.java.Before;
 import io.cucumber.java.en.*;
 
 public class StepDefinitions {
     String searchTerm;
+    HiperTextualApp hiperTextualApp;
+
+    @Before()
+    public void setupWebApp() {
+        WebApp webApp = new WebApp();
+        hiperTextualApp = new HiperTextualApp(webApp.getPage());
+    }
+
 
     @Given("User navigate to {string}")
     public void userNavigateTo(String url) {
+        hiperTextualApp.navigateTo(url);
     }
 
     @When("User search for {string}")
