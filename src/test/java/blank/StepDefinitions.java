@@ -9,13 +9,11 @@ import org.testng.Assert;
 public class StepDefinitions {
     String searchTerm;
     HiperTextualApp hiperTextualApp;
-
     @Before()
     public void setupWebApp() {
         WebApp webApp = new WebApp();
         hiperTextualApp = new HiperTextualApp(webApp.getPage());
     }
-
 
     @Given("User navigate to {string}")
     public void userNavigateTo(String url) {
