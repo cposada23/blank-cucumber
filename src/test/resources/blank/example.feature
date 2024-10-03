@@ -1,6 +1,6 @@
-Feature: An example
+Feature: Hipertextual
 
-  Scenario: The example
+  Scenario: Search for search Term
     Given User navigate to "https://hipertextual.com"
     When User search for "Steve Jobs"
     And User Scrolls down to the first post about "Reed Jobs"

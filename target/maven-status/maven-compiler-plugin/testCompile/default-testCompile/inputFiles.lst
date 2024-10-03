@@ -1,7 +1,12 @@
 /Users/cangel/Documents/wfs/automation-framework/play/hellocucumber/src/test/java/blank/RunCucumberTest.java
 /Users/cangel/Documents/wfs/automation-framework/play/hellocucumber/src/test/java/blank/StepDefinitions.java
+/Users/cangel/Documents/wfs/automation-framework/play/hellocucumber/src/test/java/blank/appHipertextual/HiperTextualApp.java
+/Users/cangel/Documents/wfs/automation-framework/play/hellocucumber/src/test/java/blank/appHipertextual/pages/BasePage.java
+/Users/cangel/Documents/wfs/automation-framework/play/hellocucumber/src/test/java/blank/appHipertextual/pages/HomePage.java
+/Users/cangel/Documents/wfs/automation-framework/play/hellocucumber/src/test/java/blank/appHipertextual/pages/ResultsPage.java
 /Users/cangel/Documents/wfs/automation-framework/play/hellocucumber/src/test/java/framework/utilities/PathTo.java
 /Users/cangel/Documents/wfs/automation-framework/play/hellocucumber/src/test/java/framework/utilities/PropertyFileReader.java
+/Users/cangel/Documents/wfs/automation-framework/play/hellocucumber/src/test/java/framework/utilities/Waits.java
 /Users/cangel/Documents/wfs/automation-framework/play/hellocucumber/src/test/java/framework/web/WebApp.java
 /Users/cangel/Documents/wfs/automation-framework/play/hellocucumber/src/test/java/framework/web/factory/BrowserFactory.java
 /Users/cangel/Documents/wfs/automation-framework/play/hellocucumber/src/test/java/framework/web/factory/browsers/BrowserEnum.java
